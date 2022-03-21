@@ -1,0 +1,71 @@
+#socials a {
+  color: #fff;
+}
+
+#banner {
+  background: url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#banner .banner {
+  width: 60%;
+}
+
+#banner .banner h1 {
+  font-size: 100px;
+}
+
+#banner .banner p {
+  font-size: 30px;
+}
+
+#arrow1,
+#arrow {
+  background: gray;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pillars > div {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pillars > div .button {
+  display: none !important;
+}
+
+.pillars > div:hover .button {
+  display: block !important;
+}
+
+.pillars > div:hover {
+  border: 1px solid blue;
+}
+
+.above-footer {
+  gap: 10px;
+  background-color: aquamarine;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.container mt-4 {
+  gap: 10px;
+}
+/* 
+carousel{
+    height: 400px !important;
+}
+
+.slide img{
+    width: 32% !important;
+} */
