@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bootstrap</title>
+    <title>Care Out Of Reach Foundation</title>
 
     <link
       rel="stylesheet"
@@ -37,10 +37,13 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom  bg-primary">
+      
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">  </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -55,15 +58,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-          </ul>
+          </ul> -->
 
           <ul class="navbar-nav mb-2 mb-lg-0" id="socials">
             <li class="nav-item">
@@ -94,20 +97,20 @@
         </div>
       </div>
     </nav>
-
-    <div class="d-flex align-items-center" id="banner">
+    <!-- banner -->
+    <div class="d-flex align-items-center " id="banner">
       <div class="container banner">
         <div class="text-warning">
-          <h1>Your Oblibation, Our Community</h1>
+          <!-- <h1>Your Oblibation, Our Community</h1>
           <p>
-            Brotherhood in need is now accepting charity for family Australia
-            has forgotten
-          </p>
+            Care Out Of Reach Foundation in need is now accepting charity for
+            family Uganda has forgotten
+          </p> -->
           <button class="btn btn-dark btn-lg">Donate Now</button>
         </div>
       </div>
     </div>
-
+    <!-- slider of important information -->
     <div
       id="carouselExampleIndicators"
       class="carousel slide container mt-4"
@@ -120,22 +123,89 @@
           data-slide-to="0"
           class="active"
         ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
       </ol>
+      <h1 class="text-primary text-center">Project</h1>
+      
       <div class="carousel-inner">
+        
         <div class="carousel-item active">
           <!-- <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide"> -->
           <div class="w-100 d-flex justify-content-between">
             <div class="card" style="width: 32%">
               <img
-                src="/images/test.jpg"
+                src="/images/slider/foodaday.jpg"
                 style="width: 100%"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Food For A Day</h5>
+                <p class="card-text">
+                  $1 a day program. Provide food for a whole day to the
+                  community in Uganda
+                </p>
+                <a href="#" class="btn btn-primary">More infromation</a>
+              </div>
+            </div>
+            <div class="card" style="width: 32%">
+              <img
+                src="/images/slider/montly.jpg"
+                style="width: 100%"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Monthly Food-Pack</h5>
+                <p class="card-text">
+                  $30AUD Monthly Program, can support a family for 1 whole
+                  month.
+                </p>
+                <a href="#" class="btn btn-primary">More Infromation</a>
+              </div>
+            </div>
+            <div class="card" style="width: 32%">
+              <img
+                src="/images/slider/water.jpg"
+                style="width: 100%"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Water well</h5>
+                <p class="card-text">
+                  Support the local community in building fresh drinking supply.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="w-100 d-flex justify-content-between">
+            <div class="card" style="width: 32%">
+              <img
+                src="/images/slider/mosque.jfif"
+                style="width: 100%"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Build A Mosque</h5>
+                <p class="card-text">Help build infastrucutre in uganda.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 32%">
+              <img
+                src="/images/slider/medical.jpg"
+                style="width: 100%"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Medical Support</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -145,29 +215,13 @@
             </div>
             <div class="card" style="width: 32%">
               <img
-                src="/images/tester.jpg"
+                src="/images/slider/tester.jpg"
                 style="width: 100%"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 32%">
-              <img
-                src="/images/test.jpg"
-                style="width: 100%"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Urgent Cases</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -181,13 +235,13 @@
           <div class="w-100 d-flex justify-content-between">
             <div class="card" style="width: 32%">
               <img
-                src="/images/tester.jpg"
+                src="/images/slider/ramadan.jpg"
                 style="width: 100%"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Ramadan Donation</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -197,13 +251,13 @@
             </div>
             <div class="card" style="width: 32%">
               <img
-                src="/images/test.jpg"
+                src="/images/slider/tester.jpg"
                 style="width: 100%"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Hadeeth Compeition</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -213,68 +267,16 @@
             </div>
             <div class="card" style="width: 32%">
               <img
-                src="/images/tester.jpg"
+                src="/images/slider/report.jpg"
                 style="width: 100%"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Report</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="w-100 d-flex justify-content-between">
-            <div class="card" style="width: 32%">
-              <img
-                src="/images/test.jpg"
-                style="width: 100%"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 32%">
-              <img
-                src="/images/tester.jpg"
-                style="width: 100%"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 32%">
-              <img
-                src="/images/test.jpg"
-                style="width: 100%"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  See our yearly documetation on our impact on the community in
+                  Uganda
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -306,9 +308,9 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
+    <!-- foundation of chairty structure -->
     <section class="container mt-4">
-      <p class="text-primary text-center">Brothers in Need Initiatives</p>
+      <p class="text-primary text-center">Care Out Of Reach Foundation</p>
 
       <div class="row mt-4 pillars">
         <div class="col-lg-2 pt-4 pb-4">
@@ -343,11 +345,89 @@
         </div>
       </div>
     </section>
-    <section class="above-footer">
-      <div><p>asdsad</p></div>
-      <div><p>asdsad</p></div>
-      <div><p>asdsad</p></div>
-    </section>
+
+    <!-- footer -->
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div ">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Care Out Of Reach
+          </h6>
+          <p>We're a charity organisation in uganda by the people for the people
+          </p>
+        </div>
+        
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </body>
 </html>
