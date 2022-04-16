@@ -6,5 +6,6 @@
 
 Care Out Of Reach Chairty Organisation Uganda main page (displays webpage): https://s3793758.github.io/Uganda-Chairty/
 
-![Uploading Care Out Of Reach Foundation.gif…]()
+
  
+![chairtyUganda](https://user-images.githubusercontent.com/58293386/163663769-4f794666-3490-4915-905b-c4a2bc2e27e9.png)
