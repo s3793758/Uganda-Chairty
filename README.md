@@ -4,4 +4,7 @@
 
 
 
-Horiseon main page (displays webpage): https://s3793758.github.io/Uganda-Chairty/
+Care Out Of Reach Chairty Organisation Uganda main page (displays webpage): https://s3793758.github.io/Uganda-Chairty/
+
+![Uploading Care Out Of Reach Foundation.gif…]()
+ 
